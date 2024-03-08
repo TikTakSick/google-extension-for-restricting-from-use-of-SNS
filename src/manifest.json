@@ -1,0 +1,23 @@
+{
+    "name": "SNS Restriction",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "an extension to restrict you from access to SNS",
+    "permissions":[
+      "storage"
+    ],
+    "icons":{},
+    "content_scripts": [{
+      "matches": ["https://twitter.com/*", 
+                  "https://www.facebook.com/*",
+                  "https://www.youtube.com/*",
+                  "https://www.snapchat.com/*",
+                  "https://www.tiktok.com/*",
+                  "https://www.reddit.com/*",
+                  "https://www.whatsapp.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }]
+}
