@@ -33,7 +33,7 @@ window.addEventListener("load", (event) => {
             let diffMilliSec = now - timeData;
             let diffHours = diffMilliSec / 1000 / 60 / 60;
             if (diffHours < 3){
-                window.alert(` ${diffHours}DO WHAT YOU SHOULD DO!!!`);
+                window.alert(`DO WHAT YOU SHOULD DO!!!`);
                 window.history.back();
             }
             else{
