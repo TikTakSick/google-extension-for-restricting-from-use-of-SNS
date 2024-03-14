@@ -14,7 +14,8 @@
                   "https://www.snapchat.com/*",
                   "https://www.tiktok.com/*",
                   "https://www.reddit.com/*",
-                  "https://www.whatsapp.com/*"
+                  "https://www.whatsapp.com/*",
+                  "https://www.instagram.com/*"
       ],
       "js": [
         "content.js"

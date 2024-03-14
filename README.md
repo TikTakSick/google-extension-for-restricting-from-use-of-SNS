@@ -1,4 +1,4 @@
-# ブラウザ上でのSNSの使用を制限するGooogle拡張機能
+# ブラウザ上でのSNS使用を制限するGooogle拡張機能
 - 対象SNS
   - X(Twitter)
   - Facebook
@@ -7,3 +7,4 @@
   - TikTok
   - Reddit
   - WhatsApp
+  - Instagram
